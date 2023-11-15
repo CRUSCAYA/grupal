@@ -16,6 +16,7 @@ body {
 /* Non bootstrap nav styling */
 
 .navbar {
+  background-color: #8d9094;
   display: flex;
   align-items: center;
   grid-column: span 2;
@@ -35,6 +36,7 @@ body {
 /* Views */
 
 .views {
+  background-color: #3498db;
   height: 100%;
   padding: 19px 0;
 }
@@ -61,7 +63,7 @@ body {
   border-bottom-right-radius: 12px;
   border-style: none;
   background-color: #fff;
-  color: #555;
+  color: #555555;
   font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
@@ -74,7 +76,7 @@ body {
 .active-view,
 .active-view .view-text,
 .active-view .fa-solid {
-  background-color: #ff9494;
+  background-color: #8a0f5b;
   color: #fff;
 }
 

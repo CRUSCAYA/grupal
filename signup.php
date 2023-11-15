@@ -60,7 +60,7 @@ if (isset($_SESSION['email'])) {
             ?>
 
             <h2>REGISTRATE</h2>
-            <p>Rellena los datos del formulario</p>
+            <p>Rellena los Datos del Formulario</p>
             <form action="signupAcc.php" method="post">
               <input required type="email" class="form-component form-text" name="email" placeholder="Dirección de correo electrónico" />
               <input required type="password" class="form-component form-text" name="password" placeholder="Contraseña" />
@@ -69,7 +69,7 @@ if (isset($_SESSION['email'])) {
             </form>
 
             <p class="login-prompt">
-            ¿Ya tienes una cuenta?
+            ¿Ya Tienes una Cuenta?
             <a href="index.php">Iniciar Sesion</a>
             </p>
           </div>

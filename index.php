@@ -70,7 +70,7 @@ if (isset($_SESSION['email'])) {
             ?>
 
             <h2>Iniciar Sesion</h2>
-            <p>Inicie sesión en su cuenta existente</p>
+            <p>Inicie sesión en su cuenta Existente</p>
             <form action="loginAcc.php" method="post">
               <input type="email" required class="form-component form-text" name="email" placeholder="Dirección de correo electrónico" />
               <input type="password" required class="form-component form-text" name="password" placeholder="Contraseña" />
@@ -81,7 +81,7 @@ if (isset($_SESSION['email'])) {
               <?php require ('autentificacion.php')?>
               <a class="signup-google"href="<?php echo $client->createAuthUrl() ?>">Iniciar sesión con Google</a>
             </form>
-            <p class="signup-prompt">¿aún no tienes una cuenta?
+            <p class="signup-prompt">¿Aún no tienes una Cuenta?
             <a href="signup.php">Registrarse</a>
             </p>
           </div>

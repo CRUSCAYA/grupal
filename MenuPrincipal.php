@@ -14,7 +14,7 @@ if (!(isset($_SESSION['email']))) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Menu principal</title>
+  <title>Menu Principal</title>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/listatareas.png" />
