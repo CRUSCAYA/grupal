@@ -1,8 +1,8 @@
 <?php
 
-$dbhost = "localhost:3306";
+$dbhost = "localhost";
 $dbusername = "root";
-$dbpassword = "12345";
+$dbpassword = "";
 $database = "tasks";
 
 $mysqli = new mysqli($dbhost, $dbusername, $dbpassword, $database);
