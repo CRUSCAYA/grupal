@@ -110,7 +110,7 @@ h2 {
 }
 
 .delete > form > button:hover {
-  background-color: hsl(0, 100%, 56%);
+  background-color: hsl(0, 100%, 53%);
 }
 
 @media (max-width: 582px) {

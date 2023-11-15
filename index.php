@@ -70,7 +70,7 @@ if (isset($_SESSION['email'])) {
             ?>
 
             <h2>Iniciar Sesion</h2>
-            <p>Inicie sesión en su cuenta existente</p>
+            <p>Inicie sesión en su cuenta Existente</p>
             <form action="loginAcc.php" method="post">
               <input type="email" required class="form-component form-text" name="email" placeholder="Dirección de correo electrónico" />
               <input type="password" required class="form-component form-text" name="password" placeholder="Contraseña" />

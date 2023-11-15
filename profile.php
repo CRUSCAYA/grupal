@@ -49,7 +49,7 @@ if (!(isset($_SESSION['email']))) {
         <p><?php echo $_SESSION["email"] ?>!</p>
       </section>
       <section class="reset">
-        <h2>¿Restablecer la contraseña?</h2>
+        <h2>¿Restablecer la Contraseña?</h2>
         <form action="resetPassword.php" method="post">
           <input required type="password" name="oldPassword" id="oldPassword" placeholder="Contraseña anterior">
           <input required type="password" name="newPassword" id="newPassword" placeholder="Nueva contraseña">
@@ -84,7 +84,7 @@ if (!(isset($_SESSION['email']))) {
         ?>
       </section>
       <section class="delete">
-        <h2>¿Borrar cuenta?</h2>
+        <h2>¿Borrar Cuenta?</h2>
         <form action="deleteAccount.php" method="post">
           <button type="submit" class="submit-btn">Borrar</button>
         </form>
