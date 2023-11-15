@@ -1,9 +1,9 @@
 <?php
-
+//coneccion
 $dbhost = "localhost";
 $dbusername = "root";
-$dbpassword = "";
-$database = "task";
+$dbpassword = "Elyonccari";
+$database = "tasks";
 
 $mysqli = new mysqli($dbhost, $dbusername, $dbpassword, $database);
 
