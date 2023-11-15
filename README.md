@@ -11,9 +11,9 @@ El siguiente código PHP se utiliza para establecer una conexión a la base de d
 <?php
 
 // Parámetros de conexión a la base de datos
-$dbhost = "localhost:3306";
+$dbhost = "localhost";
 $dbusername = "root";
-$dbpassword = "12345";
+$dbpassword = "";
 $database = "tasks";
 
 // Crear una nueva conexión utilizando MySQLi
