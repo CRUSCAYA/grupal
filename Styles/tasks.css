@@ -61,7 +61,7 @@ body {
   border-bottom-right-radius: 12px;
   border-style: none;
   background-color: #fff;
-  color: #555;
+  color: #555555;
   font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
@@ -74,7 +74,7 @@ body {
 .active-view,
 .active-view .view-text,
 .active-view .fa-solid {
-  background-color: #ff9494;
+  background-color: #8a0f5b;
   color: #fff;
 }
 
@@ -89,7 +89,7 @@ body {
 .tasks-container {
   width: 100%;
   max-width: 653px;
-  background-color: #f6f6f6;
+  background-color: rgb(243, 239, 239);
   margin: 16px auto;
   border-radius: 8px;
   padding: 8px;

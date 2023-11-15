@@ -8,7 +8,7 @@
       <a class="nav-link" href="profile.php">Perfil</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link logout" href="logout.php">Cerrar sesión</a>
+      <a class="nav-link logout" href="logout.php">Cerrar Sesión</a>
     </li>
   </ul>
 </nav>

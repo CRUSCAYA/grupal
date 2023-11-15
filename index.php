@@ -81,7 +81,7 @@ if (isset($_SESSION['email'])) {
               <?php require ('autentificacion.php')?>
               <a class="signup-google"href="<?php echo $client->createAuthUrl() ?>">Iniciar sesión con Google</a>
             </form>
-            <p class="signup-prompt">¿aún no tienes una cuenta?
+            <p class="signup-prompt">¿Aún no tienes una Cuenta?
             <a href="signup.php">Registrarse</a>
             </p>
           </div>

@@ -5,7 +5,7 @@ p.signup-prompt {
 }
 
 .login-btn {
-  background:red;
+  background:rgb(255, 0, 0)
 }
 
 .login-btn:hover {
@@ -20,7 +20,7 @@ p.signup-prompt{
 }
 
 .signup-prompt a {
-  color: white;
+  color: rgb(19, 8, 236));
   font-weight: 600;
 }
 
@@ -34,7 +34,7 @@ p.signup-prompt{
   padding-top: 20px;
 }
 .signup-google a {
-  color:white;
+  color:rgb(242, 240, 240);
   text-decoration-line: none;
   font-family: inherit;
   padding-top: 20px;
